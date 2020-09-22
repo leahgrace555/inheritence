@@ -12,6 +12,10 @@ public class Restaurant {
         this.priceCategory = priceCategory;
     }
 
+    public string getName() {
+        return this.name;
+    }
+
     @Override
     public String toString() {
         return "Restaurant{" +
